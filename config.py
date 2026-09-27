@@ -22,7 +22,7 @@ USE_AUTH: bool = os.getenv("USE_AUTH", "false").strip().lower() == "true"
 COOKIES_FILE = "cookies.json"
 STATE_FILE = "state.json"
 BASE_URL = "https://trouverunlogement.lescrous.fr"
-SEARCH_URL = f"{BASE_URL}/tools/42/search"
+SEARCH_URL = f"{BASE_URL}/tools/47/search"
 
 # Heroku — set these to persist state/cookies across dyno restarts
 HEROKU_API_KEY: str = os.getenv("HEROKU_API_KEY", "")

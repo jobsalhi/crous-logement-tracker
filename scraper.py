@@ -102,11 +102,33 @@ def _parse_cards(soup: BeautifulSoup) -> list[dict]:
     return accommodations
 
 
+def _normalize_text(text: str) -> str:
+    import unicodedata
+    return "".join(
+        c for c in unicodedata.normalize("NFD", text)
+        if unicodedata.category(c) != "Mn"
+    ).upper()
+
+
 def _matches_location(accommodation: dict) -> bool:
     if not LOCATIONS:
         return True
-    addr_upper = accommodation["address"].upper()
-    return any(loc in addr_upper for loc in LOCATIONS)
+
+    address = _normalize_text(accommodation["address"])
+
+    # Extract the city after the 5-digit French postal code.
+    match = re.search(r"\b\d{5}\s+([A-Z0-9][A-Z0-9\\x27 -]+)$", address)
+
+    if not match:
+        return False
+
+    city = match.group(1).strip()
+
+    normalized_locations = [
+        _normalize_text(loc) for loc in LOCATIONS
+    ]
+
+    return city in normalized_locations
 
 
 def _matches_price(accommodation: dict) -> bool:
@@ -114,7 +136,7 @@ def _matches_price(accommodation: dict) -> bool:
         return True
     price_min = accommodation.get("price_min")
     if price_min is None:
-        return True
+        return False
     return price_min <= MAX_PRICE
 
 
