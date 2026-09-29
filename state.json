@@ -8,5 +8,25 @@
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2856",
     "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/a6a5ebcf-336f-11e8-89ed-005056940822/5accbe26dfea7-crous-versailles-eileen-gray-exterieur.jpg",
     "first_seen": "2026-09-27T13:36:25"
+  },
+  "1751": {
+    "id": "1751",
+    "name": "Evry- Aunettes",
+    "address": "1 Impasse de la Predecelle 91000 EVRY",
+    "price": "285,15 €",
+    "price_min": 285.15,
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/1751",
+    "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/923ac454-05a3-11e8-89ed-005056940822/5a788b024ef69-Les Aunettes Extérieur .jpg",
+    "first_seen": "2026-09-29T13:22:10"
+  },
+  "2555": {
+    "id": "2555",
+    "name": "Orsay-Fleming",
+    "address": "21, rue André Maginot 91400 ORSAY",
+    "price": "283,05 €",
+    "price_min": 283.05,
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2555",
+    "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/3439bcbe-0a87-11e8-89ed-005056940822/5a7885c988a19-Flemming extérieur.jpg",
+    "first_seen": "2026-09-29T13:22:10"
   }
 }
