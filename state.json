@@ -28,5 +28,15 @@
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2555",
     "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/3439bcbe-0a87-11e8-89ed-005056940822/5a7885c988a19-Flemming extérieur.jpg",
     "first_seen": "2026-09-29T13:22:10"
+  },
+  "3006": {
+    "id": "3006",
+    "name": "Orsay-Georges Charpak",
+    "address": "Bâtiment 470 Domaine de l’université de Paris Saclay Rue du château 91400 Orsay",
+    "price": "366,62 €",
+    "price_min": 366.62,
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/3006",
+    "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/6f73f3ae-748b-4fb4-979e-8f258698852f/66f57e635df79-colocation.JPG",
+    "first_seen": "2026-10-12T16:00:04"
   }
 }
