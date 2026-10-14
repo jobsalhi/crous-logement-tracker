@@ -38,5 +38,15 @@
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/3006",
     "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/6f73f3ae-748b-4fb4-979e-8f258698852f/66f57e635df79-colocation.JPG",
     "first_seen": "2026-10-12T16:00:04"
+  },
+  "712": {
+    "id": "712",
+    "name": "Nanterre",
+    "address": "8 allée de l'Université 92000 Nanterre",
+    "price": "265,79 €",
+    "price_min": 265.79,
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/712",
+    "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/33c45f7c-0a87-11e8-89ed-005056940822/5a843a917bf91-crous-versailles-nanterre-exterieur.jpg",
+    "first_seen": "2026-10-14T15:15:26"
   }
 }
