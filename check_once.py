@@ -1,4 +1,5 @@
 import scraper as sc
+import requests
 from state import load_state, save_state
 from telegram_bot import send_message
 from notifier import _format_message
@@ -7,7 +8,11 @@ from notifier import _format_message
 def main():
     print("Checking CROUS...")
 
-    current = sc.fetch_all_accommodations()
+    try:
+        current = sc.fetch_all_accommodations()
+    except requests.RequestException as exc:
+        print(f"CROUS check skipped: network error while fetching listings ({exc})")
+        return
     current_ids = {a["id"] for a in current}
 
     print(f"Found {len(current)} matching accommodations.")
