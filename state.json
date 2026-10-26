@@ -48,5 +48,15 @@
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/712",
     "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/33c45f7c-0a87-11e8-89ed-005056940822/5a843a917bf91-crous-versailles-nanterre-exterieur.jpg",
     "first_seen": "2026-10-14T15:15:26"
+  },
+  "2565": {
+    "id": "2565",
+    "name": "Saclay-Eileen Gray",
+    "address": "2 rue Sophie Germain 91400 Orsay",
+    "price": "de 247 à 265 €",
+    "price_min": 247.0,
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2565",
+    "image_url": "https://trouverunlogement.lescrous.fr/media/cache/resolve/preview/a6a5ebcf-336f-11e8-89ed-005056940822/5accbe26dfea7-crous-versailles-eileen-gray-exterieur.jpg",
+    "first_seen": "2026-10-26T11:16:09"
   }
 }
